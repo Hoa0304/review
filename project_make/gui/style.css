@@ -1,0 +1,36 @@
+:root{
+    --main-color:#191F3A; 
+    --sub--color : #aa971e;
+}
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container {
+    margin: auto;
+    max-width: 1200px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.top {
+    background-color: var(--main-color);
+}
+.top .logo img{
+    width: 80px;
+}
+.top menu-bar span{
+    display: block;
+    height: 2px;
+    width: 40px;
+    background-color: var(--sub--color) ;
+}
